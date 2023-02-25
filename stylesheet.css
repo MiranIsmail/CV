@@ -1,0 +1,48 @@
+
+#header{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: grey;
+    font-size: 90px;
+    display: flex;
+    position: relative;
+    border: 2px;
+    border-style: groove;
+    mix-blend-mode: overlay;
+}
+
+#header:hover{
+    box-shadow: 0 0 3px 2px greenyellow;
+}
+
+#pic{
+    height: 250px;
+    border-radius: 7%;
+    position: absolute;
+    right: 3%;
+    top: 9%;
+}
+#pic:hover{
+    box-shadow: 0 0 3px 2px greenyellow;
+    scale: 120%;
+}
+#bigname{
+    color: black;
+    font-size: 90px;
+
+}
+#detail1{
+    font-size: medium;
+    color: black;
+    position: absolute;
+    left: 3%;
+    bottom: 8%;
+}
+#detail2{
+    font-size: small;
+    color: black;
+    position: absolute;
+    left: 3%;
+    bottom: 3%;
+}
